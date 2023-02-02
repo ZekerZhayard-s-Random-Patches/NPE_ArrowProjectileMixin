@@ -1,0 +1,20 @@
+{
+    "schemaVersion": 1,
+    "id": "npe_arrowprojectilemixin",
+    "version": "${version}",
+    "name": "NPE_ArrowProjectileMixin",
+    "description": "",
+    "authors": [
+        "ZekerZhayard"
+    ],
+    "contact": {},
+    "license": "All-Rights-Reserved",
+    "environment": "*",
+    "entrypoints": {},
+    "mixins": [
+        "npe_arrowprojectilemixin.mixins.json"
+    ],
+    "depends": {
+        "minecraft": "1.18.2"
+    }
+}

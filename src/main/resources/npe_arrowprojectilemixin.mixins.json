@@ -1,0 +1,13 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "io.github.zekerzhayard.npe_arrowprojectilemixin.mixin",
+    "compatibilityLevel": "JAVA_17",
+    "mixins": [
+        "MixinPersistentProjectileEntity"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    },
+    "plugin": "io.github.zekerzhayard.npe_arrowprojectilemixin.MixinConfigPlugin"
+}
